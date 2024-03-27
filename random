@@ -1,0 +1,11 @@
+import random
+
+# 生成随机的循环次数和循环体内容
+outer_loop_count = random.randint(1, 5)
+inner_loop_count = random.randint(1, 5)
+loop_body = "Nested loop"
+
+# 生成嵌套循环
+for i in range(outer_loop_count):
+    for j in range(inner_loop_count):
+        print(loop_body)
